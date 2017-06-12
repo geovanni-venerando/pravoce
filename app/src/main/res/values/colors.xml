@@ -2,5 +2,8 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="azul_app">#2a5494</color>
+    <color name="transparente_app">#ffffff</color>
+    <color name="cinza_app">#737070</color>
 </resources>

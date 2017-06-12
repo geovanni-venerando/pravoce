@@ -1,18 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="cielo.projeto.pravoce.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="390dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@color/azul_app"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-11dp" />
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:text="Escolha seu combo:"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="134dp" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/idBotaoTres"
+        android:layout_width="340dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/idBotaoDois"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/idBotaoDois"
+        android:layout_marginBottom="115dp"
+        android:background="@color/transparente_app"
+        android:text="Achocolatado + Misto + Maçã"
+        android:textColor="@color/cinza_app"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/idBotaoDois"
+        android:layout_width="340dp"
+        android:layout_height="65dp"
+        android:layout_above="@+id/idBotaoTres"
+        android:layout_alignLeft="@+id/idBotaoUm"
+        android:layout_alignStart="@+id/idBotaoUm"
+        android:layout_marginBottom="17dp"
+        android:background="@color/transparente_app"
+        android:elevation="0dp"
+        android:text="Suco de Laranja + Banana + Torta de Frango"
+        android:textColor="@color/cinza_app"
+        android:textColorLink="@android:color/black"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/idBotaoUm"
+        android:layout_width="340dp"
+        android:layout_height="65dp"
+        android:layout_above="@+id/idBotaoDois"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="@color/transparente_app"
+        android:text="Suco de Maça + Esfiha de Carne + Fruta"
+        android:textColor="@color/cinza_app"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/combo"
+        android:layout_above="@+id/idBotaoUm"
+        android:layout_alignLeft="@+id/idBotaoUm"
+        android:layout_alignStart="@+id/idBotaoUm"
+        android:layout_marginBottom="17dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+
+</RelativeLayout>
