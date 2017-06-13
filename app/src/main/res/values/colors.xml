@@ -10,4 +10,5 @@
     <color name="branco_app">#ffffff</color>
     <color name="transparente_apps">#13faf9f8</color>
     <color name="amarelo_txt">#d9c304</color>
+    <color name="azul_claro_app">#e0f3fa</color>
 </resources>
