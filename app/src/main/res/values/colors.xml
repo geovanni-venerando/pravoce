@@ -6,4 +6,7 @@
     <color name="azul_app">#2a5494</color>
     <color name="transparente_app">#ffffff</color>
     <color name="cinza_app">#737070</color>
+    <color name="amarelo_app">#ffe400</color>
+    <color name="branco_app">#ffffff</color>
+    <color name="transparente_apps">#13faf9f8</color>
 </resources>
