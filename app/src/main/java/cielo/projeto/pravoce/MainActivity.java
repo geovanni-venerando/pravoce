@@ -22,21 +22,21 @@ public class MainActivity extends AppCompatActivity {
         botaoum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Aluno.class));
+                startActivity(new Intent(MainActivity.this, Pagamento.class));
             }
         });
 
         botaodois.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Aluno.class));
+                startActivity(new Intent(MainActivity.this, Pagamento.class));
             }
         });
 
         botaotres.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Aluno.class));
+                startActivity(new Intent(MainActivity.this, Pagamento.class));
             }
         });
     }
