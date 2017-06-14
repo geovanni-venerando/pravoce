@@ -15,9 +15,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="81dp"
         android:background="@color/transparente_apps"
+        android:contextClickable="true"
         android:ems="10"
         android:hint="Nome ou RA:"
         android:inputType="textPersonName"
+        android:pointerIcon="none"
         android:textColor="@color/branco_app"
         android:textColorHint="@color/branco_app"
         android:textColorLink="@color/branco_app" />
@@ -26,7 +28,7 @@
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="63dp"
         app:srcCompat="@drawable/logo2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -42,29 +44,4 @@
         android:layout_alignLeft="@+id/editText4"
         android:layout_alignStart="@+id/editText4" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Não tem conta? "
-        android:textColor="@color/branco_app"
-        android:textSize="17dp"
-        android:layout_alignBaseline="@+id/textView4"
-        android:layout_alignBottom="@+id/textView4"
-        android:layout_toLeftOf="@+id/textView4"
-        android:layout_toStartOf="@+id/textView4" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cadastra-se"
-        android:textColor="@color/amarelo_app"
-        android:textSize="17dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginRight="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_below="@+id/bntEntrar"
-        android:layout_alignRight="@+id/bntEntrar"
-        android:layout_alignEnd="@+id/bntEntrar" />
 </RelativeLayout>
